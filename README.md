@@ -22,7 +22,4 @@ This onverts a simple pseudocode dialect into runnable R code and shows a flowch
 - Add export buttons (download .R file, PNG of flowchart).
 
 
-Enjoy! 🎀
-
-
-*/
+Enjoy! 
