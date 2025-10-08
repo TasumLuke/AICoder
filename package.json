@@ -1,23 +1,26 @@
 {
-"name": "pseudocode-to-r-converter",
-"version": "1.0.0",
-"private": true,
-"scripts": {
-"dev": "vite",
-"build": "vite build",
-"preview": "vite preview"
-},
-"dependencies": {
-"react": "^18.2.0",
-"react-dom": "^18.2.0",
-"reactflow": "^11.0.0",
-"framer-motion": "^10.12.16",
-"lucide-react": "^0.278.0"
-},
-"devDependencies": {
-"tailwindcss": "^3.5.0",
-"postcss": "^8.4.0",
-"autoprefixer": "^10.4.0",
-"vite": "^5.0.0"
-}
+  "name": "pseudocode-to-r-converter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reactflow": "^11.11.4",
+    "framer-motion": "^12.23.22",
+    "lucide-react": "^0.545.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.18",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "vite": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
