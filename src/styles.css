@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body, #root { height: 100%; }
+body { @apply bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50; }
+
+
+.card { @apply bg-white/80 backdrop-blur-md rounded-2xl p-4 shadow-lg }
+
+
+textarea::-webkit-scrollbar { height: 10px; width: 8px; }
+textarea::-webkit-scrollbar-thumb { background: rgba(139,92,246,0.3); border-radius: 999px }
